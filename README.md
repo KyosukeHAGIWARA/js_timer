@@ -39,6 +39,17 @@ HTMLの要素をタイマーで切り替えるjsスクリプトです。
 1. 要素切り替えの場合は上のように終了と開始を並べるとできます。
     + `data-end-date` と `data-start-date` の時刻が同じでも問題なく切り替えが起こります
     
+1. 対象elementに `data-start-date` と `data-end-date` 属性の両方を付与すると期間内限定表示が実装できます。
+
+    ```HTML
+    <!--設定時刻から表示させる場合-->
+    <span class="view_timer" data-start-date="2018/10/15 12:00" data-end-date="2018/10/15 13:00">
+        <a href="https://www.google.com" target="_blank">
+           <img src="hoge.png" alt="2018/10/15 12:00 から 13:00の期間限定でこの要素は出現します" />
+        </a>
+    </span>
+    ```
+    
 ## License
 MIT
 
