@@ -17,7 +17,7 @@ HTMLの要素をタイマーで切り替えるjsスクリプトです。
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="./view_timer.js"></script>
     ```
-1. 対象elementに　`class` 名 `view_timer` と、 `data-start-date` もしくは `data-end-date` 属性を付与
+1. 対象elementに `class` 名 `view_timer` と、 `data-start-date` もしくは `data-end-date` 属性を付与
 
     ```HTML
     <!--設定時刻で表示を消す場合-->
