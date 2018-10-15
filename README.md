@@ -7,7 +7,10 @@
 HTMLの要素をタイマーで切り替えるjsスクリプトです。
 
 ## Usage
-1. スクリプトファイルをディレクトリに配置しimport
+1. スクリプトファイルをディレクトリに配置
+    + [view_timer.js](https://github.com/KyosukeHAGIWARA/js_timer/blob/master/view_timer.js)
+    + ファイル名は `view_timer.js` から変更不可
+1. 本体ファイルにimport
 
     ```HTML
     <!--head内で-->
